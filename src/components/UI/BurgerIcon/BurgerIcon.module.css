@@ -1,0 +1,17 @@
+.container {
+    margin: 2rem ;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(240, 191, 76);
+    margin-top: 0.4rem;
+
+}
+
+.bar.light {
+    background-color: #000;
+
+}

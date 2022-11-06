@@ -1,0 +1,24 @@
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  margin-bottom: 0.2rem;
+  color: #fff;
+}
+.label.light {
+  color: #000;
+}
+
+.input input{
+  width: 3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font: inherit;
+  padding-left: 0.5rem;
+}

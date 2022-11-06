@@ -1,0 +1,14 @@
+.button {
+    background-color: rgb(240, 191, 76);
+    border: none;
+    padding: 0.2rem 1rem;
+    border-radius: 8px;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button.light {
+    color: #fff;
+    font-weight: bold;
+}

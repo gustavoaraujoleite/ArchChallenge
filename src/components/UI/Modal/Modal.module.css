@@ -1,0 +1,34 @@
+.modal_container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.126);
+    backdrop-filter: blur(4px);
+    overflow: scroll;
+}
+
+.card_container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 20%;
+    top: 10%;
+    margin-bottom: 1rem;
+}
+
+.close_button_container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.4rem;
+}
+.close_button {
+    cursor: pointer;
+}
+
+@media (min-width: 0px )and (max-width: 970px) {
+    .modal_container {
+        position: fixed;
+        height: 100vh;
+        overflow: scroll;
+    }
+}

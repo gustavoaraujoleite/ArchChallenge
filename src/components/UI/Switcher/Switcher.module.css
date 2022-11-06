@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 110px;
+}
+
+.switcher_body {
+    width: 28px;
+    height: 12px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(236, 168, 9);
+    transition: all ease-in-out 0.6s;
+    cursor: pointer;
+
+}
+.switcher_body.light {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    transition: all ease-in-out 0.6s;
+
+}
+
+.text {
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+.button {
+    cursor: pointer;
+    background-color: rgb(240, 191, 76);
+    border: 1px solid rgb(240, 191, 76);
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.button.light {
+    background-color: rgb(240, 191, 76);
+    border: 1px solid rgb(240, 191, 76);
+    color: #000;
+}
+
+.button:hover{
+    background-color: rgb(233, 174, 36);
+    border-color: rgb(233, 174, 36);
+}

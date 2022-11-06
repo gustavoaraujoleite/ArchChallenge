@@ -1,0 +1,101 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #252525;
+  color: #fff;
+  box-shadow: 0px 2px 6px 2px rgba(240, 191, 76, 0.9);
+  z-index: 10;
+
+}
+
+.header.light {
+  background: linear-gradient(90deg, rgba(240,191,76,1) 50%, rgba(247,239,119,0.4066001400560224) 100%, rgb(80, 63, 10) 100%);  
+  color: #000;
+  border-bottom: 2px solid rgba(240, 191, 76, 0.9);
+  box-shadow: none;
+
+}
+
+.menu_container {
+  width: 96%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.arch_logo {
+  font-family:  cursive;
+  font-size: 36px;
+  margin-left: 3rem;
+}
+
+.children_container {
+  width: 100%;
+  height: 100vh;
+  margin-top: 5.2rem;
+  background-image: url('../../../../public/images/background_arch.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+
+}
+
+.children_inner_container {
+  background-color: rgba(204, 204, 204, 0.315);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.last_items_container {
+  width: 16%;
+  display: flex;
+  justify-content: flex-end;
+}
+.burger_menu_container {
+  display: none;
+}
+.burger_icon_container {
+  display: none
+}
+.burger_closed {
+  display: none;
+}
+
+@media (min-width: 0px )and (max-width: 970px) {
+
+  .arch_logo{
+    display: none;
+  }
+  .children_container {
+    height: 100%;
+    background-repeat: repeat-y;
+    background-size: contain;
+  }
+  .burger_menu_container {
+    display: block;
+    left: 0;
+    margin-top: 2rem;
+    margin-left: -1rem;
+  }
+  .burger_closed {
+    display: none;
+  }
+  .burger_icon_container {
+    display: block;
+  }
+  .header_menu_container{
+    display: none;
+  }
+  .last_items_container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1.4rem 2rem;
+  }
+}
